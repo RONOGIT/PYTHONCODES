@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "ronogit"]
+	url = https://github.com/RONOGIT/PYTHONCODES
+	fetch = +refs/heads/*:refs/remotes/ronogit/*
+[branch "master"]
+	remote = ronogit
+	merge = refs/heads/master
