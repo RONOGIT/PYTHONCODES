@@ -17,5 +17,5 @@ def guess_number(limit):
             break
 
 # Example
-num= int(input("Enter the range from 0 to :"))
+num= int(input("Enter the range from 1 to :"))
 guess_number(num)
